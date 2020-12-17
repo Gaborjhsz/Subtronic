@@ -1,0 +1,104 @@
+{
+    "id": "c35b8760-e66d-4019-9d1d-cf6209b6497a",
+    "sceneType": "SCENE",
+    "settings": {
+        "snapWidth": 32,
+        "snapHeight": 32,
+        "preloadPackFiles": [],
+        "sceneKey": "Menu"
+    },
+    "displayList": [
+        {
+            "type": "TileSprite",
+            "id": "3f568f83-9d1c-4c2e-8e9e-7977935e78da",
+            "label": "background",
+            "components": [],
+            "texture": {
+                "key": "background"
+            },
+            "x": 288,
+            "y": 256,
+            "scaleX": 4.075890006016809,
+            "scaleY": 2.736483904238448,
+            "width": 288,
+            "height": 256
+        },
+        {
+            "type": "TileSprite",
+            "id": "884eed9d-b3f1-45c8-af66-737ec9f2728d",
+            "label": "midground",
+            "components": [],
+            "texture": {
+                "key": "midground"
+            },
+            "x": 288,
+            "y": 256,
+            "scaleX": 1.2929040415813702,
+            "scaleY": 1.3635964369315612,
+            "width": 960,
+            "height": 512
+        },
+        {
+            "type": "Text",
+            "id": "f9eb8b99-9a88-4584-8646-1403d3340527",
+            "label": "text_1",
+            "components": [],
+            "x": 412,
+            "y": 338,
+            "originY": 0,
+            "tintFill": true,
+            "text": "Press Space to Play!",
+            "paddingLeft": 10,
+            "paddingTop": 10,
+            "paddingRight": 10,
+            "paddingBottom": 10,
+            "align": "center",
+            "fontSize": "60px",
+            "fontStyle": "italic",
+            "color": "#0b0b0bff",
+            "stroke": "#242ca1ff",
+            "strokeThickness": 3,
+            "shadow.offsetX": 1,
+            "shadow.offsetY": 1,
+            "shadow.stroke": true,
+            "shadow.fill": true,
+            "shadow.color": "#000000ff",
+            "shadow.blur": 5
+        },
+        {
+            "type": "Sprite",
+            "id": "12e4158e-0135-41d1-89e4-df9d81f753a3",
+            "label": "Avatar",
+            "components": [],
+            "texture": {
+                "key": "idle1"
+            },
+            "x": 402,
+            "y": 189
+        },
+        {
+            "type": "Text",
+            "id": "6a0ee3d1-d871-49a9-801f-5c40a739d625",
+            "label": "text",
+            "components": [],
+            "x": 215,
+            "y": 32,
+            "originX": 0,
+            "originY": 0,
+            "text": "Subtronic",
+            "fixedHeight": 90,
+            "fontSize": "85px",
+            "fontStyle": "bold",
+            "color": "#e3e652ff",
+            "stroke": "#080808ff",
+            "strokeThickness": 15,
+            "shadow.color": "#000000ff"
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}

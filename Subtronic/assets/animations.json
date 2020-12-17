@@ -1,0 +1,807 @@
+{
+    "anims": [
+        {
+            "key": "Playeridle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "idle1",
+                    "duration": 0
+                },
+                {
+                    "key": "idle2",
+                    "duration": 0
+                },
+                {
+                    "key": "idle3",
+                    "duration": 0
+                },
+                {
+                    "key": "idle4",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "showOnStart": true
+        },
+        {
+            "key": "Player_hurt",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "hit",
+                    "duration": 0
+                },
+                {
+                    "key": "hit2",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "delay": 3,
+            "repeat": -1,
+            "hideOnComplete": true
+        },
+        {
+            "key": "Enemy_fish",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "fish",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "fish",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "fish",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "fish",
+                    "frame": 3,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Enemyfish-big",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "fish-big_1",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "fish-big_1",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "fish-big_1",
+                    "frame": 2,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Enemyfish-dart",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "fish-dart",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "fish-dart",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "fish-dart",
+                    "frame": 2,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Crab_idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "crab-idle",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-idle",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-idle",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-idle",
+                    "frame": 3,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Crab_walk",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "crab-walk",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-walk",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-walk",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "crab-walk",
+                    "frame": 3,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Jumper_idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "jumper-idle",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "jumper-idle",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "jumper-idle",
+                    "frame": 2,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Jumper_jump",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "jumper-jump",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Octopus",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "octopus",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "octopus",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "octopus",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "octopus",
+                    "frame": 3,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Enemy_death",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "enemy-death",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "enemy-death",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "enemy-death",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "enemy-death",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "enemy-death",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "enemy-death",
+                    "frame": 5,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Explosion",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "explosion",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 5,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 6,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 7,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 8,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 9,
+                    "duration": 0
+                },
+                {
+                    "key": "explosion",
+                    "frame": 10,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Bubbles",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "bubbles",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "bubbles",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "bubbles",
+                    "frame": 2,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "drone_idle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 5,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 6,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 7,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 8,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 9,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 10,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 11,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 12,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 13,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 14,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 15,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 16,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 17,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 18,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 19,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 20,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 21,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 22,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_idle_sheet",
+                    "frame": 23,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "drone_fire",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 5,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 6,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 7,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 8,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 9,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 10,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 11,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 12,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 13,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 14,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 15,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 16,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 17,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 18,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_fire_sheet",
+                    "frame": 19,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "drone_explosion",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Plasma Drone_explode_sheet",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_explode_sheet",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_explode_sheet",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_explode_sheet",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma Drone_explode_sheet",
+                    "frame": 4,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "drone_particle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 5,
+                    "duration": 0
+                },
+                {
+                    "key": "Plasma ball_sheet",
+                    "frame": 6,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "shark",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "Shark1",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark2",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark3",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark4",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark5",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark6",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark7",
+                    "duration": 0
+                },
+                {
+                    "key": "Shark8",
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "projectile",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "power-up",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "power-up",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "power-up",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "power-up",
+                    "frame": 3,
+                    "duration": 0
+                },
+                {
+                    "key": "power-up",
+                    "frame": 4,
+                    "duration": 0
+                },
+                {
+                    "key": "power-up",
+                    "frame": 5,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        },
+        {
+            "key": "Impact",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "impact",
+                    "frame": 0,
+                    "duration": 0
+                },
+                {
+                    "key": "impact",
+                    "frame": 1,
+                    "duration": 0
+                },
+                {
+                    "key": "impact",
+                    "frame": 2,
+                    "duration": 0
+                },
+                {
+                    "key": "impact",
+                    "frame": 3,
+                    "duration": 0
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    }
+}

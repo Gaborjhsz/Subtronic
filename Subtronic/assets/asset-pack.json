@@ -1,0 +1,385 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/animations.json",
+                "type": "animation",
+                "key": "animations"
+            },
+            {
+                "url": "assets/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "assets/bubbles.png",
+                "frameConfig": {
+                    "frameWidth": 24,
+                    "frameHeight": 40,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "bubbles"
+            },
+            {
+                "url": "assets/Coin.png",
+                "type": "image",
+                "key": "Coin"
+            },
+            {
+                "url": "assets/crab-idle.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 30,
+                    "startFrame": 0,
+                    "endFrame": 6,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "crab-idle"
+            },
+            {
+                "url": "assets/crab-walk.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 30,
+                    "startFrame": 0,
+                    "endFrame": 4,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "crab-walk"
+            },
+            {
+                "url": "assets/enemy-death.png",
+                "frameConfig": {
+                    "frameWidth": 52,
+                    "frameHeight": 50,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "enemy-death"
+            },
+            {
+                "url": "assets/explosion.png",
+                "frameConfig": {
+                    "frameWidth": 60,
+                    "frameHeight": 80,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "explosion"
+            },
+            {
+                "url": "assets/fish.png",
+                "frameConfig": {
+                    "frameWidth": 32,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fish"
+            },
+            {
+                "url": "assets/fish-big.png",
+                "frameConfig": {
+                    "frameWidth": 55,
+                    "frameHeight": 49,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fish-big_1"
+            },
+            {
+                "url": "assets/fish-dart.png",
+                "frameConfig": {
+                    "frameWidth": 40,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "fish-dart"
+            },
+            {
+                "url": "assets/HealthHud1.png",
+                "type": "image",
+                "key": "HealthHud1"
+            },
+            {
+                "url": "assets/HealthHud2.png",
+                "type": "image",
+                "key": "HealthHud2"
+            },
+            {
+                "url": "assets/HealthHud3.png",
+                "type": "image",
+                "key": "HealthHud3"
+            },
+            {
+                "url": "assets/HealthHud4.png",
+                "type": "image",
+                "key": "HealthHud4"
+            },
+            {
+                "url": "assets/hit.png",
+                "type": "image",
+                "key": "hit"
+            },
+            {
+                "url": "assets/hit2.png",
+                "type": "image",
+                "key": "hit2"
+            },
+            {
+                "url": "assets/idle1.png",
+                "type": "image",
+                "key": "idle1"
+            },
+            {
+                "url": "assets/idle2.png",
+                "type": "image",
+                "key": "idle2"
+            },
+            {
+                "url": "assets/idle3.png",
+                "type": "image",
+                "key": "idle3"
+            },
+            {
+                "url": "assets/idle4.png",
+                "type": "image",
+                "key": "idle4"
+            },
+            {
+                "url": "assets/impact.png",
+                "frameConfig": {
+                    "frameWidth": 12,
+                    "frameHeight": 12,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "impact"
+            },
+            {
+                "url": "assets/jumper-idle.png",
+                "frameConfig": {
+                    "frameWidth": 48,
+                    "frameHeight": 32,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "jumper-idle"
+            },
+            {
+                "url": "assets/jumper-jump.png",
+                "type": "image",
+                "key": "jumper-jump"
+            },
+            {
+                "url": "assets/Level.js",
+                "type": "sceneFile",
+                "key": "Level"
+            },
+            {
+                "url": "assets/Level1_tilemap.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level1_tilemap"
+            },
+            {
+                "url": "assets/Level1_tilemap.png",
+                "type": "image",
+                "key": "Level1_tilemap_1"
+            },
+            {
+                "url": "assets/Level1_tilemapv1.png",
+                "type": "image",
+                "key": "Level1_tilemapv1"
+            },
+            {
+                "url": "assets/Middle.json",
+                "type": "json",
+                "key": "Middle"
+            },
+            {
+                "url": "assets/midground.png",
+                "type": "image",
+                "key": "midground"
+            },
+            {
+                "url": "assets/mine.png",
+                "type": "image",
+                "key": "mine"
+            },
+            {
+                "url": "assets/octopus.png",
+                "frameConfig": {
+                    "frameWidth": 28,
+                    "frameHeight": 37,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "octopus"
+            },
+            {
+                "url": "lib/phaser.js",
+                "type": "script",
+                "key": "phaser"
+            },
+            {
+                "url": "assets/Plasma ball_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 65,
+                    "frameHeight": 60,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Plasma ball_sheet"
+            },
+            {
+                "url": "assets/Plasma Drone_explode_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 200,
+                    "frameHeight": 200,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Plasma Drone_explode_sheet"
+            },
+            {
+                "url": "assets/Plasma Drone_fire_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 128,
+                    "frameHeight": 110,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Plasma Drone_fire_sheet"
+            },
+            {
+                "url": "assets/Plasma Drone_idle_sheet.png",
+                "frameConfig": {
+                    "frameWidth": 90,
+                    "frameHeight": 92,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 1,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "Plasma Drone_idle_sheet"
+            },
+            {
+                "url": "assets/power-up.png",
+                "frameConfig": {
+                    "frameWidth": 20,
+                    "frameHeight": 20,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 4,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "power-up"
+            },
+            {
+                "url": "assets/Shark1.png",
+                "type": "image",
+                "key": "Shark1"
+            },
+            {
+                "url": "assets/Shark2.png",
+                "type": "image",
+                "key": "Shark2"
+            },
+            {
+                "url": "assets/Shark3.png",
+                "type": "image",
+                "key": "Shark3"
+            },
+            {
+                "url": "assets/Shark4.png",
+                "type": "image",
+                "key": "Shark4"
+            },
+            {
+                "url": "assets/Shark5.png",
+                "type": "image",
+                "key": "Shark5"
+            },
+            {
+                "url": "assets/Shark6.png",
+                "type": "image",
+                "key": "Shark6"
+            },
+            {
+                "url": "assets/Shark7.png",
+                "type": "image",
+                "key": "Shark7"
+            },
+            {
+                "url": "assets/Shark8.png",
+                "type": "image",
+                "key": "Shark8"
+            },
+            {
+                "url": "assets/shot.png",
+                "type": "image",
+                "key": "shot"
+            },
+            {
+                "url": "assets/sprites.json",
+                "type": "json",
+                "key": "sprites"
+            },
+            {
+                "url": "assets/Tiles.json",
+                "type": "json",
+                "key": "Tiles"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2
+    }
+}
