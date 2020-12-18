@@ -15,15 +15,28 @@ class Menu extends Phaser.Scene {
 	
 	create() {
 		
-		// background
-		const background = this.add.tileSprite(288, 256, 288, 256, "background");
-		background.scaleX = 4.075890006016809;
-		background.scaleY = 2.736483904238448;
+		// far
+		const far = this.add.image(403, 306, "far");
+		far.scaleX = 3.8357821504361636;
+		far.scaleY = 3.1953116100128063;
 		
-		// midground
-		const midground = this.add.tileSprite(288, 256, 960, 512, "midground");
-		midground.scaleX = 1.2929040415813702;
-		midground.scaleY = 1.3635964369315612;
+		// sand
+		const sand = this.add.image(384, 280, "sand");
+		sand.scaleX = 4.20020492094463;
+		sand.scaleY = 3.44001967577543;
+		
+		// foregound_merged
+		const foregound_merged = this.add.image(403, 298, "foregound-merged");
+		foregound_merged.scaleX = 2.3162658745400493;
+		foregound_merged.scaleY = 3.278645022432025;
+		
+		// Avatar
+		this.add.sprite(402, 226, "idle1");
+		
+		// text
+		const text = this.add.text(215, 32, "", {});
+		text.text = "Subtronic";
+		text.setStyle({"color":"#e3e652ff","fixedHeight":90,"fontSize":"85px","fontStyle":"bold","stroke":"#080808ff","strokeThickness":15,"shadow.color":"#000000ff"});
 		
 		// text_1
 		const text_1 = this.add.text(412, 338, "", {});
@@ -32,14 +45,6 @@ class Menu extends Phaser.Scene {
 		text_1.text = "Press Space to Play!";
 		text_1.setStyle({"align":"center","color":"#0b0b0bff","fontSize":"60px","fontStyle":"italic","stroke":"#242ca1ff","strokeThickness":3,"shadow.offsetX":1,"shadow.offsetY":1,"shadow.color":"#000000ff","shadow.blur":5,"shadow.stroke":true,"shadow.fill":true});
 		text_1.setPadding({"left":10,"top":10,"right":10,"bottom":10});
-		
-		// Avatar
-		this.add.sprite(402, 189, "idle1");
-		
-		// text
-		const text = this.add.text(215, 32, "", {});
-		text.text = "Subtronic";
-		text.setStyle({"color":"#e3e652ff","fixedHeight":90,"fontSize":"85px","fontStyle":"bold","stroke":"#080808ff","strokeThickness":15,"shadow.color":"#000000ff"});
 	}
 	
 	/* START-USER-CODE */

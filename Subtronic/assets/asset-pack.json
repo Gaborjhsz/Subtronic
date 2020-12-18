@@ -12,6 +12,26 @@
                 "key": "background"
             },
             {
+                "url": "assets/Background1.tsx",
+                "type": "binary",
+                "key": "Background1"
+            },
+            {
+                "url": "assets/Background1.json",
+                "type": "json",
+                "key": "Background1_1"
+            },
+            {
+                "url": "assets/background2.png",
+                "type": "image",
+                "key": "background2"
+            },
+            {
+                "url": "assets/Background2.json",
+                "type": "json",
+                "key": "Background2"
+            },
+            {
                 "url": "assets/bubbles.png",
                 "frameConfig": {
                     "frameWidth": 24,
@@ -82,6 +102,11 @@
                 "key": "explosion"
             },
             {
+                "url": "assets/far.png",
+                "type": "image",
+                "key": "far"
+            },
+            {
                 "url": "assets/fish.png",
                 "frameConfig": {
                     "frameWidth": 32,
@@ -119,6 +144,21 @@
                 },
                 "type": "spritesheet",
                 "key": "fish-dart"
+            },
+            {
+                "url": "assets/foregound-merged.png",
+                "type": "image",
+                "key": "foregound-merged"
+            },
+            {
+                "url": "assets/Front1.tsx",
+                "type": "binary",
+                "key": "Front1"
+            },
+            {
+                "url": "assets/Front1.json",
+                "type": "json",
+                "key": "Front1_1"
             },
             {
                 "url": "assets/HealthHud1.png",
@@ -207,6 +247,11 @@
                 "key": "Level"
             },
             {
+                "url": "assets/Level1.js",
+                "type": "sceneFile",
+                "key": "Level1"
+            },
+            {
                 "url": "assets/Level1_tilemap.json",
                 "type": "tilemapTiledJSON",
                 "key": "Level1_tilemap"
@@ -222,14 +267,49 @@
                 "key": "Level1_tilemapv1"
             },
             {
+                "url": "assets/Level2.js",
+                "type": "sceneFile",
+                "key": "Level2"
+            },
+            {
+                "url": "assets/Level2_tilemap.json",
+                "type": "tilemapTiledJSON",
+                "key": "Level2_tilemap"
+            },
+            {
+                "url": "assets/Level2_tilemapv1.png",
+                "type": "image",
+                "key": "Level2_tilemapv1"
+            },
+            {
+                "url": "assets/Menu.js",
+                "type": "sceneFile",
+                "key": "Menu"
+            },
+            {
                 "url": "assets/Middle.json",
                 "type": "json",
                 "key": "Middle"
             },
             {
+                "url": "assets/Middle1.tsx",
+                "type": "binary",
+                "key": "Middle1"
+            },
+            {
+                "url": "assets/Middle1.json",
+                "type": "json",
+                "key": "Middle1_1"
+            },
+            {
                 "url": "assets/midground.png",
                 "type": "image",
                 "key": "midground"
+            },
+            {
+                "url": "assets/midground2.png",
+                "type": "image",
+                "key": "midground2"
             },
             {
                 "url": "assets/mine.png",
@@ -320,6 +400,21 @@
                 "key": "power-up"
             },
             {
+                "url": "assets/props2.png",
+                "type": "image",
+                "key": "props2"
+            },
+            {
+                "url": "assets/Props2.json",
+                "type": "json",
+                "key": "Props2"
+            },
+            {
+                "url": "assets/sand.png",
+                "type": "image",
+                "key": "sand"
+            },
+            {
                 "url": "assets/Shark1.png",
                 "type": "image",
                 "key": "Shark1"
@@ -370,9 +465,24 @@
                 "key": "sprites"
             },
             {
+                "url": "assets/sub1.png",
+                "type": "image",
+                "key": "sub1"
+            },
+            {
                 "url": "assets/Tiles.json",
                 "type": "json",
                 "key": "Tiles"
+            },
+            {
+                "url": "assets/tiles2.png",
+                "type": "image",
+                "key": "tiles2"
+            },
+            {
+                "url": "assets/Tiles2.json",
+                "type": "json",
+                "key": "Tiles2"
             }
         ]
     },

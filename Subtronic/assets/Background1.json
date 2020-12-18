@@ -1,0 +1,14 @@
+{ "columns":8,
+ "image":"C:\/Users\/gabor\/OneDrive\/Documents\/University\/Year 3\/Web Games\/Submarine sprites\/underwater-fantasy-files\/PNG\/layers\/far.png",
+ "imageheight":192,
+ "imagewidth":256,
+ "margin":0,
+ "name":"Background2",
+ "spacing":0,
+ "tilecount":48,
+ "tiledversion":"1.4.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.4
+}

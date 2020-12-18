@@ -1,0 +1,14 @@
+{ "columns":15,
+ "image":"C:\/Users\/gabor\/OneDrive\/Documents\/University\/Year 3\/Web Games\/Submarine sprites\/underwater-diving-files\/PNG\/environment\/tiles.png",
+ "imageheight":656,
+ "imagewidth":480,
+ "margin":0,
+ "name":"Tiles",
+ "spacing":0,
+ "tilecount":300,
+ "tiledversion":"1.4.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.4
+}

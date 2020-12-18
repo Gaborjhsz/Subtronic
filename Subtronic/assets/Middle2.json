@@ -1,0 +1,14 @@
+{ "columns":30,
+ "image":"C:\/Users\/gabor\/OneDrive\/Documents\/University\/Year 3\/Web Games\/Submarine sprites\/underwater-diving-files\/PNG\/environment\/midground.png",
+ "imageheight":512,
+ "imagewidth":960,
+ "margin":0,
+ "name":"Middle",
+ "spacing":0,
+ "tilecount":480,
+ "tiledversion":"1.4.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.4
+}

@@ -1,0 +1,22 @@
+{ "columns":32,
+ "editorsettings":
+    {
+     "export":
+        {
+         "format":"",
+         "target":"."
+        }
+    },
+ "image":"C:\/Users\/gabor\/OneDrive\/Documents\/University\/Year 3\/Web Games\/Submarine sprites\/underwater-diving-files\/PNG\/environment\/props.png",
+ "imageheight":496,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"Props",
+ "spacing":0,
+ "tilecount":480,
+ "tiledversion":"1.4.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":1.4
+}

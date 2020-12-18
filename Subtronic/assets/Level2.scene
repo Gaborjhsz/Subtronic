@@ -2,13 +2,24 @@
     "id": "01aefa93-6044-4159-8358-7e91310aa05f",
     "sceneType": "SCENE",
     "settings": {
-        "snapEnabled": true,
-        "snapWidth": 40,
-        "snapHeight": 40,
+        "snapWidth": 12000,
+        "snapHeight": 384,
         "preloadPackFiles": [],
         "sceneKey": "Level"
     },
     "displayList": [
+        {
+            "type": "Image",
+            "id": "74e5bc05-fb2c-447b-bb00-8a1ca062aad4",
+            "label": "level2_tilemapv1",
+            "components": [],
+            "texture": {
+                "key": "Level2_tilemapv1"
+            },
+            "x": 5977,
+            "y": 306,
+            "scaleY": 1.5095333027740638
+        },
         {
             "type": "Image",
             "id": "1319ee4c-0ff3-42e3-b65f-784958fd718b",
