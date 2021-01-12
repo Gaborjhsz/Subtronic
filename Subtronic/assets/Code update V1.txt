@@ -1,0 +1,91 @@
+class mainScene extends Phaser.Scene
+{
+    constructor ()
+    {
+        super();
+    }
+    preload() {
+        this.load.image('player', 'assets/idle1.png');
+        this.load.image("player1", "assets/idle2.png");
+        this.load.image('coin', 'assets/Coin.png');
+        this.load.image('background', 'assets/Level2/background_resized.png')
+        this.load.image('tilemap2', 'assets/Level2/Level2_pic.png')
+        this.load.image('midground', 'assets/Level2/midground_resized.png')
+        this.load.image('props', 'assets/Level2/props_resized.png')
+        this.load.image('tiles', 'assets/Level2/tiles_resized.png')
+        this.load.tilemapTiledJSON('Level2', 'assets/Level2/Level2_tilemap.json')
+        this.load.audio('music', ['assets/City of Coral.mp3']);
+    }
+
+    create() {
+        this.tilemap2 = this.add.image(-300,-150, 'tilemap2').setOrigin(0);
+        this.player = this.physics.add.sprite(100, 100, 'player');
+        this.coin = this.physics.add.sprite(300, 200, 'coin');
+        //camera settings
+        this.cameras.main.startFollow(this.player); //focus on player
+        this.cameras.main.setBounds( -300, -150, 16000, 512); //camera bounds
+        this.cameras.main.followOffset.set(-250, 0);
+        //music settings
+        var music = this.sound.add("music", { loop: true, volume : 0.1 });
+        music.play();
+        //score settings
+        this.score = 0;
+        let style = { font: '20px Arial', fill: '#f3ec31' };
+        this.scoreText = this.add.text(20, 20, 'score: ' + this.score, style);
+        this.scoreText.setScrollFactor(0); //moves with camera
+        this.arrow = this.input.keyboard.createCursorKeys();
+    }
+
+    update() {
+        //collider
+        if (this.physics.overlap(this.player, this.coin)) {
+            this.hit();
+        }
+        //movement
+        if (this.arrow.right.isDown) {
+            this.player.x += 3;
+        } //else if (this.arrow.left.isDown) {
+            //this.player.x -= 3;
+        //}
+
+        if (this.arrow.down.isDown) {
+            this.player.y += 3;
+        } else if (this.arrow.up.isDown) {
+            this.player.y -= 3;
+        }
+        this.player.setVelocity(100, 0); //constant movement
+    }
+
+    hit() {
+        //coin respawn to random position
+        this.coin.x = Phaser.Math.Between(0, 600);
+        this.coin.y = Phaser.Math.Between(0, 600);
+        // score update
+        this.score += 10;
+        this.scoreText.setText('score: ' + this.score);
+        // player size change
+        this.tweens.add({
+            targets: this.player,
+            duration: 300,
+            scaleX: 1.1,
+            scaleY: 1.1,
+            yoyo: true,
+        });
+    }
+}
+
+new Phaser.Game({
+    width: 800,
+    height: 512,
+    scene: [
+        mainScene,
+        //menuScene,
+        //endingScene
+        ],
+    physics: { default: 'arcade' },
+    parent: 'game',
+    audio: {
+        //disableWebAudio: true
+    }
+});
+var game = new Phaser.Game(config);
